@@ -1,4 +1,4 @@
-## Magasin
+## Negozio
 
 An atomic state management prototype for React 18+
 

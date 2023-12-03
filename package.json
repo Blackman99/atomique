@@ -4,6 +4,10 @@
   "description": "An atomic state management prototype for React 18+",
   "type": "module",
   "files": ["dist"],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Blackman99/negozio",
+  },
   "scripts": {
     "dev:ui": "vite",
     "build": "unbuild"

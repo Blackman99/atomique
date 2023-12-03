@@ -52,6 +52,10 @@ export default function App() {
 
 ![Count Gif](magasin-count.gif)
 
+> [!NOTE]
+> The `createAtom` function can accept complex values other than string, number, such as array and object.
+> It is based on the hook [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore) in React 18
+
 ## LICENSE
 
 MIT

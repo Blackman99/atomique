@@ -2,6 +2,19 @@
 
 An atomic state management prototype for React 18+
 
+## Install
+
+```sh
+# via npm
+npm i --save negozio
+
+# via yarn
+yarn add negozio
+
+# via pnpm
+pnpm i negozio
+```
+
 ## Usage
 
 * use-count.js

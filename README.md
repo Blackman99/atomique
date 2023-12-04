@@ -20,7 +20,7 @@ pnpm i negozio
 * use-count.js
 
 ```js
-import { createAtom } from 'negozio'
+import createAtom from 'negozio'
 
 export default createAtom(0)
 ```

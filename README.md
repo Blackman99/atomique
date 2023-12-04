@@ -7,7 +7,7 @@ An atomic state management prototype for React 18+
 * use-count.js
 
 ```js
-import { createAtom } from 'magasin'
+import { createAtom } from 'negozio'
 
 export default createAtom(0)
 ```

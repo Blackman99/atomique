@@ -20,9 +20,9 @@ pnpm i negozio
 * use-count.js
 
 ```js
-import createAtom from 'negozio'
+import negozio from 'negozio'
 
-export default createAtom(0)
+export default negozio(0)
 ```
 
 * count-button.jsx

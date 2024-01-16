@@ -16,9 +16,7 @@ yarn add atomique
 pnpm i atomique
 ```
 
-## Usage
-
-* count.js
+## Introduction 
 
 The `atomique` accept a initial value and return two things:
 * `useAtom` - a hook that can be used in components
@@ -28,10 +26,14 @@ The `atomique` accept a initial value and return two things:
 > The `atomique` function can accept complex values other than string, number, such as array and object.
 > It is based on the hook [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore) in React 18
 
+## Usage
+
+* count.js
+
 ```js
 import atomique from 'atomique'
 
-export const { useAtom: useCount, update } = atomique()
+export const { useAtom: useCount, update } = atomique(0)
 ```
 
 * count-button.jsx

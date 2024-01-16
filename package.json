@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev:ui": "vite",
-    "build": "unbuild"
+    "build": "unbuild",
+    "prepublishOnly": "build"
   },
   "types": "./dist/index.d.ts",
   "exports": {

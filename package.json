@@ -1,5 +1,5 @@
 {
-  "name": "negozio",
+  "name": "atomique",
   "version": "0.1.0",
   "description": "An atomic state management prototype for React 18+",
   "type": "module",

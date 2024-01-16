@@ -1,3 +1,3 @@
-import createAtom from '../src'
+import atomique from '../src'
 
-export const useCount = createAtom(0)
+export const { update, useAtom: useCount } = atomique(0)

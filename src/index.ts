@@ -4,6 +4,10 @@ type NewValSetter<T> = (oldVal: T) => T
 
 type NewValOrNewValSetter<T> = T | NewValSetter<T>
 
+type Updater<T> = (newVal: NewValOrNewValSetter<T>) => void
+
+type UseAtom<T> = () => [T, Updater<T>]
+
 function isNewValSetter<T>(input: T | NewValSetter<T>): input is NewValSetter<T> {
   return typeof input === 'function'
 }
@@ -13,7 +17,10 @@ function isNewValSetter<T>(input: T | NewValSetter<T>): input is NewValSetter<T>
  * @param initialVal any value you want this atom to hold
  * @returns a react hook
  */
-function createAtom<T>(initialVal: T): () => [T, (newVal: NewValOrNewValSetter<T>) => void] {
+function createAtom<T>(initialVal: T): {
+  useAtom: UseAtom<T>
+  update: Updater<T>
+} {
   let listeners: Array<() => void> = []
 
   let val = initialVal
@@ -27,7 +34,7 @@ function createAtom<T>(initialVal: T): () => [T, (newVal: NewValOrNewValSetter<T
 
   const getSnapShot = () => val
 
-  return () => [
+  const useAtom: UseAtom<T> = () => [
     useSyncExternalStore(subscriber, getSnapShot, getSnapShot),
     (newValOrNewValSetter) => {
       if (isNewValSetter(newValOrNewValSetter))
@@ -37,6 +44,21 @@ function createAtom<T>(initialVal: T): () => [T, (newVal: NewValOrNewValSetter<T
 
       listeners.forEach(l => l())
     }]
+
+  const update: Updater<T> = (newValOrNewValSetter) => {
+    if (isNewValSetter(newValOrNewValSetter))
+      val = newValOrNewValSetter(val)
+
+    else
+      val = newValOrNewValSetter
+
+    listeners.forEach(l => l())
+  }
+
+  return {
+    useAtom,
+    update,
+  }
 }
 
 export default createAtom

@@ -1,4 +1,4 @@
-## Negozio
+## Atomique
 
 An atomic state management prototype for React 18+
 
@@ -6,29 +6,31 @@ An atomic state management prototype for React 18+
 
 ```sh
 # via npm
-npm i --save negozio
+npm i atomique
 
 # via yarn
-yarn add negozio
+yarn add atomique
 
 # via pnpm
-pnpm i negozio
+pnpm i atomique
 ```
 
 ## Usage
 
-* use-count.js
+* count.js
 
 ```js
-import negozio from 'negozio'
+import atomique from 'atomique'
 
-export default negozio(0)
+export const { useAtom: useCount, update } = negozio()
+// useCount can be used in components
+// update can be used outside components
 ```
 
 * count-button.jsx
 
 ```jsx
-import useCount from '/path/to/use-count'
+import { useCount } from '/path/to/use-count'
 
 export default function CountButton() {
   const [, setCount] = useCount()
@@ -41,7 +43,7 @@ export default function CountButton() {
 * count-display.jsx
 
 ```js
-import useCount from '/path/to/use-count'
+import { useCount } from '/path/to/use-count'
 
 export default function CountDisplay() {
   const [count] = useCount()
@@ -66,7 +68,7 @@ export default function App() {
 ![Count Gif](magasin-count.gif)
 
 > [!NOTE]
-> The `createAtom` function can accept complex values other than string, number, such as array and object.
+> The `atomique` function can accept complex values other than string, number, such as array and object.
 > It is based on the hook [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore) in React 18
 
 ## LICENSE

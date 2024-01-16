@@ -11,7 +11,7 @@
   "scripts": {
     "dev:ui": "vite",
     "build": "unbuild",
-    "prepublishOnly": "build"
+    "prepublishOnly": "pnpm build"
   },
   "types": "./dist/index.d.ts",
   "exports": {

@@ -31,7 +31,7 @@ The `atomique` accept a initial value and return two things:
 ```js
 import atomique from 'atomique'
 
-export const { useAtom: useCount, update } = negozio()
+export const { useAtom: useCount, update } = atomique()
 ```
 
 * count-button.jsx

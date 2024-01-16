@@ -1,4 +1,5 @@
-## Atomique
+## Atomique 
+> 芥子纳须弥 The smallest may hold the largest
 
 An atomic state management prototype for React 18+
 
@@ -19,12 +20,18 @@ pnpm i atomique
 
 * count.js
 
+The `atomique` accept a initial value and return two things:
+* `useAtom` - a hook that can be used in components
+* `update` - a function that can be used outside components
+
+> [!NOTE]
+> The `atomique` function can accept complex values other than string, number, such as array and object.
+> It is based on the hook [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore) in React 18
+
 ```js
 import atomique from 'atomique'
 
 export const { useAtom: useCount, update } = negozio()
-// useCount can be used in components
-// update can be used outside components
 ```
 
 * count-button.jsx
@@ -66,10 +73,6 @@ export default function App() {
 ```
 
 ![Count Gif](magasin-count.gif)
-
-> [!NOTE]
-> The `atomique` function can accept complex values other than string, number, such as array and object.
-> It is based on the hook [`useSyncExternalStore`](https://react.dev/reference/react/useSyncExternalStore) in React 18
 
 ## LICENSE
 

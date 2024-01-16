@@ -6,7 +6,7 @@
   "files": ["dist"],
   "repository": {
     "type": "github",
-    "url": "https://github.com/Blackman99/negozio"
+    "url": "https://github.com/Blackman99/atomique"
   },
   "scripts": {
     "dev:ui": "vite",

@@ -19,7 +19,7 @@ pnpm i atomique
 ## Introduction 
 
 The `atomique` accept a initial value and return two things:
-* `useAtom` - a hook that can be used in components
+* `useAtom` - a hook that can be used inside components
 * `update` - a function that can be used outside components
 
 > [!NOTE]

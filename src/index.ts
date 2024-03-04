@@ -1,4 +1,4 @@
-import { useSyncExternalStore } from 'npm:react'
+import { useSyncExternalStore } from 'react'
 
 type NewValSetter<T> = (oldVal: T) => T
 

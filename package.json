@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "An atomic state management prototype for React 18+",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "github",
     "url": "https://github.com/Blackman99/atomique"
@@ -28,11 +30,14 @@
   "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config-react": "^0.43.1",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.55.0",
     "react": "^18.2.0",
+    "taze": "^0.13.3",
     "typescript": "^5.3.2",
     "unbuild": "^2.0.0",
     "vite": "^5.0.4"

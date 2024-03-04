@@ -5,6 +5,7 @@ An atomic state management prototype for React 18+
 
 ## Install
 
+* With npm/yarn/pnpm
 ```sh
 # via npm
 npm i atomique
@@ -14,6 +15,23 @@ yarn add atomique
 
 # via pnpm
 pnpm i atomique
+```
+* With [jsr](https://jsr.io/)
+```sh
+# via npx
+npx jsr add @ds/atomique
+
+# via deno
+deno add @ds/atomique
+
+# via yarn
+yarn dlx jsr add @ds/atomique
+
+# via pnpm
+pnpm dlx jsr add @ds/atomique
+
+# via bun
+bunx jsr add @ds/atomique
 ```
 
 ## Introduction 
@@ -32,6 +50,8 @@ The `atomique` accept a initial value and return two things:
 
 ```js
 import atomique from 'atomique'
+
+// import atomique from '@ds/atomique' // With jsr
 
 export const { useAtom: useCount, update } = atomique(0)
 ```

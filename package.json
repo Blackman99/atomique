@@ -1,6 +1,6 @@
 {
   "name": "atomique",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An atomic state management prototype for React 18+",
   "type": "module",
   "files": [

@@ -1,5 +1,11 @@
 # atomique
 
+## 0.1.3
+
+### Patch Changes
+
+- [`4e079eb`](https://github.com/Blackman99/atomique/commit/4e079eb83af1f5e5e3a77dcb575e727f60cb79f5) Thanks [@Blackman99](https://github.com/Blackman99)! - feat: change deno.json to jsr.json
+
 ## 0.1.2
 
 ### Patch Changes

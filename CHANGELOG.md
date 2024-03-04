@@ -1,5 +1,11 @@
 # atomique
 
+## 0.1.2
+
+### Patch Changes
+
+- [`0cbb87c`](https://github.com/Blackman99/atomique/commit/0cbb87c0a7c82fe3bde4c2d21f54fd7b6803301a) Thanks [@Blackman99](https://github.com/Blackman99)! - fix: jsr config
+
 ## 0.1.1
 
 ### Patch Changes

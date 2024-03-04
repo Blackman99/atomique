@@ -1,0 +1,13 @@
+{
+  "name": "@ds/atomique",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*",
+    "test/**/*"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

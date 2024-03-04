@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "types": ["vite/client"],
     "esModuleInterop": true
   },
   "exclude": ["node_modules/**/*", "dist/**/*"],

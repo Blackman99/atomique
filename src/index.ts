@@ -1,4 +1,4 @@
-import { useSyncExternalStore } from 'react'
+import { useSyncExternalStore } from 'npm:react'
 
 type NewValSetter<T> = (oldVal: T) => T
 
@@ -15,7 +15,7 @@ function isNewValSetter<T>(input: T | NewValSetter<T>): input is NewValSetter<T>
 /**
  * To create an minimal atom hook function to share states between components
  * @param initialVal any value you want this atom to hold
- * @returns a react hook
+ * @returns A hook `useAtom` and a normal function `update`. `useAtom` can be used inside components. `update` function can be used outside components.
  */
 function createAtom<T>(initialVal: T): {
   useAtom: UseAtom<T>
@@ -25,7 +25,7 @@ function createAtom<T>(initialVal: T): {
 
   let val = initialVal
 
-  const subscriber = (listener) => {
+  const subscriber = (listener: () => void) => {
     listeners = [...listeners, listener]
     return () => {
       listeners = listeners.filter(l => l !== listener)

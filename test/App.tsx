@@ -1,3 +1,4 @@
+/** @jsxRuntime automatic *//** @jsxImportSource npm:react */
 import type { ReactNode } from 'react'
 import { useCount } from './store'
 

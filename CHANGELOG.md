@@ -1,5 +1,27 @@
 # atomique
 
+## 0.1.6
+
+### Patch Changes
+
+- [`3f9aee0`](https://github.com/Blackman99/atomique/commit/3f9aee0c0aeab15d681cda8733b51fb2664c2fdb) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`23fee3f`](https://github.com/Blackman99/atomique/commit/23fee3f591531eae2086504a1091e3bc0dabfa8c) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`72b640e`](https://github.com/Blackman99/atomique/commit/72b640ebf2d28f8e933ad91288d4998fbead1b94) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`e6000f8`](https://github.com/Blackman99/atomique/commit/e6000f8afd813aa98e0668bee255674e1fa1f15b) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`da5a72c`](https://github.com/Blackman99/atomique/commit/da5a72c21ba8646f5c298d8b2abf87802a3d4afa) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`0bc2772`](https://github.com/Blackman99/atomique/commit/0bc2772003d5fa03920afc498997dc4460e2784b) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`c199de1`](https://github.com/Blackman99/atomique/commit/c199de12a1ca4518e06649d4b9ab63918745b923) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`033fb8e`](https://github.com/Blackman99/atomique/commit/033fb8e6054c98ecb59993c4bc8ad42d14120d35) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
+- [`f9a58c4`](https://github.com/Blackman99/atomique/commit/f9a58c4dda6c092d71b917fa8d5c482fe08e599f) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
 ## 0.1.5
 
 ### Patch Changes

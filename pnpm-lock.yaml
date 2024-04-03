@@ -15,11 +15,11 @@ devDependencies:
     specifier: ^2.27.1
     version: 2.27.1
   '@types/node':
-    specifier: ^20.12.2
-    version: 20.12.2
+    specifier: ^20.12.3
+    version: 20.12.3
   '@types/react':
-    specifier: ^18.2.73
-    version: 18.2.73
+    specifier: ^18.2.74
+    version: 18.2.74
   '@types/react-dom':
     specifier: ^18.2.23
     version: 18.2.23
@@ -43,7 +43,7 @@ devDependencies:
     version: 2.0.0(typescript@5.4.3)
   vite:
     specifier: ^5.2.7
-    version: 5.2.7(@types/node@20.12.2)
+    version: 5.2.7(@types/node@20.12.3)
   zx:
     specifier: ^7.2.3
     version: 7.2.3
@@ -1835,7 +1835,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.12.2
+      '@types/node': 20.12.3
     dev: true
 
   /@types/json-schema@7.0.14:
@@ -1845,7 +1845,7 @@ packages:
   /@types/jsonfile@6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 20.12.2
+      '@types/node': 20.12.3
     dev: true
 
   /@types/mdast@3.0.14:
@@ -1868,8 +1868,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.12.2:
-    resolution: {integrity: sha512-zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==}
+  /@types/node@20.12.3:
+    resolution: {integrity: sha512-sD+ia2ubTeWrOu+YMF+MTAB7E+O7qsMqAbMfW7DG3K1URwhZ5hN1pLlRVGbf4wDFzSfikL05M17EyorS86jShw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1889,11 +1889,11 @@ packages:
   /@types/react-dom@18.2.23:
     resolution: {integrity: sha512-ZQ71wgGOTmDYpnav2knkjr3qXdAFu0vsk8Ci5w3pGAIdj7/kKAyn+VsQDhXsmzzzepAiI9leWMmubXz690AI/A==}
     dependencies:
-      '@types/react': 18.2.73
+      '@types/react': 18.2.74
     dev: true
 
-  /@types/react@18.2.73:
-    resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
+  /@types/react@18.2.74:
+    resolution: {integrity: sha512-9AEqNZZyBx8OdZpxzQlaFEVCSFUM2YXJH46yPOiOpm078k6ZLOCcuAzGum/zK8YBwY+dbahVNbHrbgrAwIRlqw==}
     dependencies:
       '@types/prop-types': 15.7.9
       csstype: 3.1.2
@@ -2118,7 +2118,7 @@ packages:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.2
-      vite: 5.2.7(@types/node@20.12.2)
+      vite: 5.2.7(@types/node@20.12.3)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -6166,7 +6166,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite@5.2.7(@types/node@20.12.2):
+  /vite@5.2.7(@types/node@20.12.3):
     resolution: {integrity: sha512-k14PWOKLI6pMaSzAuGtT+Cf0YmIx12z9YGon39onaJNy8DLBfBJrzg9FQEmkAM5lpHBZs9wksWAsyF/HkpEwJA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6194,7 +6194,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.12.2
+      '@types/node': 20.12.3
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.13.0

@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^20.12.7
     version: 20.12.7
   '@types/react':
-    specifier: ^18.3.0
-    version: 18.3.0
+    specifier: ^18.3.1
+    version: 18.3.1
   '@types/react-dom':
     specifier: ^18.3.0
     version: 18.3.0
@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^9.1.1
     version: 9.1.1
   react:
-    specifier: ^18.3.0
-    version: 18.3.0
+    specifier: ^18.3.1
+    version: 18.3.1
   taze:
     specifier: ^0.13.7
     version: 0.13.7
@@ -1703,11 +1703,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
     dev: true
 
-  /@types/react@18.3.0:
-    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
+  /@types/react@18.3.1:
+    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
     dependencies:
       '@types/prop-types': 15.7.9
       csstype: 3.1.2
@@ -4430,8 +4430,8 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react@18.3.0:
-    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
+  /react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0

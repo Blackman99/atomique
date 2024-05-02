@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^2.27.1
     version: 2.27.1
   '@types/node':
-    specifier: ^20.12.7
-    version: 20.12.7
+    specifier: ^20.12.8
+    version: 20.12.8
   '@types/react':
     specifier: ^18.3.1
     version: 18.3.1
@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^18.3.1
     version: 18.3.1
   taze:
-    specifier: ^0.13.7
-    version: 0.13.7
+    specifier: ^0.13.8
+    version: 0.13.8
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -43,7 +43,7 @@ devDependencies:
     version: 2.0.0(typescript@5.4.5)
   vite:
     specifier: ^5.2.10
-    version: 5.2.10(@types/node@20.12.7)
+    version: 5.2.10(@types/node@20.12.8)
   zx:
     specifier: ^8.0.2
     version: 8.0.2
@@ -1656,7 +1656,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
     dev: true
     optional: true
 
@@ -1668,7 +1668,7 @@ packages:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
     dev: true
     optional: true
 
@@ -1686,8 +1686,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node@20.12.7:
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  /@types/node@20.12.8:
+    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1924,7 +1924,7 @@ packages:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.2
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -4880,8 +4880,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /taze@0.13.7:
-    resolution: {integrity: sha512-7of7fg1+2O5fm4eykJdCOkr9D0TEjZeXDdgm8hST4C+iFxa24Vzjm3Dk5TQ7JjId2ut+yRE2KE++YaSY7Vh5ng==}
+  /taze@0.13.8:
+    resolution: {integrity: sha512-FaHz2S04VTaAuqfhkA9XXj+GQH4Qq7lhpie0xqE4q8tJTPwHkZki41eKKOpbe2dtHwoIlLLG3MDtoOQwhOnD9A==}
     hasBin: true
     dependencies:
       '@antfu/ni': 0.21.12
@@ -5160,7 +5160,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@5.2.10(@types/node@20.12.7):
+  /vite@5.2.10(@types/node@20.12.8):
     resolution: {integrity: sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5188,7 +5188,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.13.0
@@ -5399,5 +5399,5 @@ packages:
     hasBin: true
     optionalDependencies:
       '@types/fs-extra': 11.0.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
     dev: true

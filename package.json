@@ -42,7 +42,7 @@
     "taze": "^0.13.8",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
-    "vite": "^5.2.10",
+    "vite": "^5.2.11",
     "zx": "^8.0.2"
   },
   "peerDependencies": {

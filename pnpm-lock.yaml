@@ -25,7 +25,7 @@ devDependencies:
     version: 18.3.0
   '@vitejs/plugin-react-swc':
     specifier: ^3.6.0
-    version: 3.6.0(vite@5.2.10)
+    version: 3.6.0(vite@5.2.11)
   eslint:
     specifier: ^9.1.1
     version: 9.1.1
@@ -42,8 +42,8 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.0(typescript@5.4.5)
   vite:
-    specifier: ^5.2.10
-    version: 5.2.10(@types/node@20.12.8)
+    specifier: ^5.2.11
+    version: 5.2.11(@types/node@20.12.8)
   zx:
     specifier: ^8.0.2
     version: 8.0.2
@@ -1918,13 +1918,13 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vitejs/plugin-react-swc@3.6.0(vite@5.2.10):
+  /@vitejs/plugin-react-swc@3.6.0(vite@5.2.11):
     resolution: {integrity: sha512-XFRbsGgpGxGzEV5i5+vRiro1bwcIaZDIdBRP16qwm+jP68ue/S8FJTBEgOeojtVDYrbSua3XFp71kC8VJE6v+g==}
     peerDependencies:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.2
-      vite: 5.2.10(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.8)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -5160,8 +5160,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@5.2.10(@types/node@20.12.8):
-    resolution: {integrity: sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==}
+  /vite@5.2.11(@types/node@20.12.8):
+    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:

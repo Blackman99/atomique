@@ -36,9 +36,10 @@ bunx jsr add @ds/atomique
 
 ## Introduction 
 
-The `atomique` accept a initial value and return two things:
-* `useAtom` - a hook that can be used inside components
-* `update` - a function that can be used outside components
+The `atomique` accept a initial value and return 3 things:
+* `useAtom` - a `useState` like hook that can be used inside React components
+* `get` - a function that can be used outside components to get the current value
+* `update` - a function that can be used outside components to set the current value
 
 > [!NOTE]
 > The `atomique` function can accept complex values other than string, number, such as array and object.

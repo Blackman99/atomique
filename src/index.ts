@@ -20,6 +20,7 @@ function isNewValSetter<T>(input: T | NewValSetter<T>): input is NewValSetter<T>
 function createAtom<T>(initialVal: T): {
   useAtom: UseAtom<T>
   update: Updater<T>
+  get: () => T
 } {
   let listeners: Array<() => void> = []
 
@@ -58,6 +59,7 @@ function createAtom<T>(initialVal: T): {
   return {
     useAtom,
     update,
+    get: () => val
   }
 }
 

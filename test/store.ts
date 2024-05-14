@@ -1,3 +1,3 @@
 import atomique from '../src'
 
-export const { update, useAtom: useCount } = atomique(0)
+export const { update, useAtom: useCount, get } = atomique(0)

@@ -13,6 +13,20 @@ jobs:
       id-token: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token:  ${{ secrets.G_TOKEN }}
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "21.7.3"
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.4.0
+        with: 
+          version: 9.1.1
+      - name: Install packages
+        run: pnpm i
       - name: Publish package
         run: npx jsr publish

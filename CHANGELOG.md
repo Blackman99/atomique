@@ -1,5 +1,11 @@
 # atomique
 
+## 0.2.1
+
+### Patch Changes
+
+- [`3a1c57a`](https://github.com/Blackman99/atomique/commit/3a1c57abf47af935c7adfc004d37f6ae5455f081) Thanks [@Blackman99](https://github.com/Blackman99)! - chore: update deps
+
 ## 0.2.0
 
 ### Minor Changes

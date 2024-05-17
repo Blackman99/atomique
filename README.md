@@ -1,3 +1,5 @@
+# The React community has so many preconceptions and biases. Not worth spending time on.
+
 ## Atomique 
 > 芥子纳须弥 The smallest may hold the largest
 
